@@ -1,0 +1,138 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* font family area */
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+/* end of font family area */
+/* end of google font */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* banner section */
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.header-hero-area{
+    width: 100%;
+    height: 700px;
+    background-image: url(images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header-navbar{
+    background-color: #303030;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+.header-logo img{
+    width: 100px;
+}
+.header-menu{
+    font-family: 'Oswald', sans-serif;
+}
+.header-menu ul{
+    display: flex;
+}
+.header-menu ul li{
+    margin-right: 50px;
+    list-style: none;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffff;
+}
+.header-menu-icon i{
+    color: #ffff;
+}
+.hero-content{
+    margin-top: 210px;
+}
+.hero-content h1{
+    font-size: 125px;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    color: #ffff;
+    font-weight: 400;
+}
+.hero-content p{
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    color: #D1D1D1;
+    text-align: justify;
+}
+.hero-content-btn{
+    margin-top: 40px;
+}
+.hero-content-btn a{
+    padding: 15px 60px;
+    font-size: 25px;
+    background-color: #e8631c;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Oswald', sans-serif;
+}
+/* end of banner section */
+/* dance tour seciton */
+.dance_tour_area_wrapper{
+    background: url(images/dance\ tour\ shape.png),linear-gradient(#FF630B,#FF630B);
+    background-repeat: no-repeat;
+    background-position: -240%;
+    background-size: 90%,cover;
+    padding-bottom: 70px;
+}
+.dance-area-heading h1{
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #ffff;
+    padding-top: 50px;
+}
+.dance-area-heading p{
+    text-align: center;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+    padding-top: 8px;
+}
+.dance-card-area{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.dance-card-area .box{
+    width: 350px;
+    height: 470px;
+    background-color: #2B2C2C;
+}
+.dance-card-area .box img{
+    width: 350px;
+    height: 350px;
+}
+.box h1{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 8px;
+    color: #ffff;
+    font-family: 'Oswald', sans-serif;
+}
+.box p{
+    text-align: center;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+}
+/* end of dance tour seciton */
+
